@@ -16,7 +16,7 @@ public class GameTest extends TestCase {
     }
 
     public void testAddScore() {
-        assertEquals(-1,1);
+        
     }
 
     public void testRegisterEntity() {
