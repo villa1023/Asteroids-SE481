@@ -1,0 +1,8 @@
+-------------------------------------------------------------------------------
+Test set: com.csusm.villa291.GameTest
+-------------------------------------------------------------------------------
+Tests run: 14, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 0.019 s <<< FAILURE! - in com.csusm.villa291.GameTest
+testAddScore(com.csusm.villa291.GameTest)  Time elapsed: 0.002 s  <<< FAILURE!
+junit.framework.AssertionFailedError: expected:<-1> but was:<1>
+	at com.csusm.villa291.GameTest.testAddScore(GameTest.java:19)
+
