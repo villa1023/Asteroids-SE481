@@ -2,7 +2,7 @@ package com.csusm.villa291;
 
 import junit.framework.TestCase;
 
-//public class GameTest extends TestCase {
+public class GameTest extends TestCase {
 
     public void setUp() throws Exception {
         super.setUp();
