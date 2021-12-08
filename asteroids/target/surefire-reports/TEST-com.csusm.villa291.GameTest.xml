@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="com.csusm.villa291.AppTest" time="0.014" tests="1" errors="0" skipped="0" failures="0">
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="com.csusm.villa291.GameTest" time="0.019" tests="14" errors="0" skipped="0" failures="1">
   <properties>
     <property name="java.specification.version" value="17"/>
     <property name="sun.jnu.encoding" value="UTF-8"/>
@@ -12,7 +12,7 @@
     <property name="sun.java.launcher" value="SUN_STANDARD"/>
     <property name="user.country" value="US"/>
     <property name="sun.boot.library.path" value="/opt/homebrew/Cellar/openjdk/17.0.1_1/libexec/openjdk.jdk/Contents/Home/lib"/>
-    <property name="sun.java.command" value="/Users/oscarvilla/Desktop/SE481Asteroids/asteroids/target/surefire/surefirebooter6482899418450678244.jar /Users/oscarvilla/Desktop/SE481Asteroids/asteroids/target/surefire 2021-12-05T11-00-14_089-jvmRun1 surefire4444854116282253323tmp surefire_03284440367841129047tmp"/>
+    <property name="sun.java.command" value="/Users/oscarvilla/Desktop/SE481Asteroids/asteroids/target/surefire/surefirebooter16437261370994583940.jar /Users/oscarvilla/Desktop/SE481Asteroids/asteroids/target/surefire 2021-12-07T13-37-16_944-jvmRun1 surefire16079062695288023131tmp surefire_0153549459081003853tmp"/>
     <property name="http.nonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
     <property name="jdk.debug" value="release"/>
     <property name="surefire.test.class.path" value="/Users/oscarvilla/Desktop/SE481Asteroids/asteroids/target/test-classes:/Users/oscarvilla/Desktop/SE481Asteroids/asteroids/target/classes:/Users/oscarvilla/.m2/repository/junit/junit/4.11/junit-4.11.jar:/Users/oscarvilla/.m2/repository/org/hamcrest/hamcrest-core/1.3/hamcrest-core-1.3.jar:"/>
@@ -28,7 +28,7 @@
     <property name="line.separator" value="&#10;"/>
     <property name="java.specification.name" value="Java Platform API Specification"/>
     <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
-    <property name="surefire.real.class.path" value="/Users/oscarvilla/Desktop/SE481Asteroids/asteroids/target/surefire/surefirebooter6482899418450678244.jar"/>
+    <property name="surefire.real.class.path" value="/Users/oscarvilla/Desktop/SE481Asteroids/asteroids/target/surefire/surefirebooter16437261370994583940.jar"/>
     <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
     <property name="ftp.nonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
     <property name="java.runtime.version" value="17.0.1+1"/>
@@ -55,5 +55,22 @@
     <property name="socksNonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
     <property name="java.class.version" value="61.0"/>
   </properties>
-  <testcase name="shouldAnswerWithTrue" classname="com.csusm.villa291.AppTest" time="0.001"/>
+  <testcase name="testRegisterEntity" classname="com.csusm.villa291.GameTest" time="0"/>
+  <testcase name="testIsPlayerInvulnerable" classname="com.csusm.villa291.GameTest" time="0"/>
+  <testcase name="testGetLevel" classname="com.csusm.villa291.GameTest" time="0"/>
+  <testcase name="testGetLives" classname="com.csusm.villa291.GameTest" time="0"/>
+  <testcase name="testGetScore" classname="com.csusm.villa291.GameTest" time="0"/>
+  <testcase name="testGetEntities" classname="com.csusm.villa291.GameTest" time="0"/>
+  <testcase name="testAddScore" classname="com.csusm.villa291.GameTest" time="0.002">
+    <failure message="expected:&lt;-1&gt; but was:&lt;1&gt;" type="junit.framework.AssertionFailedError"><![CDATA[junit.framework.AssertionFailedError: expected:<-1> but was:<1>
+	at com.csusm.villa291.GameTest.testAddScore(GameTest.java:19)
+]]></failure>
+  </testcase>
+  <testcase name="testCanDrawPlayer" classname="com.csusm.villa291.GameTest" time="0"/>
+  <testcase name="testIsPaused" classname="com.csusm.villa291.GameTest" time="0"/>
+  <testcase name="testIsGameOver" classname="com.csusm.villa291.GameTest" time="0"/>
+  <testcase name="testGetPlayer" classname="com.csusm.villa291.GameTest" time="0"/>
+  <testcase name="testGetRandom" classname="com.csusm.villa291.GameTest" time="0"/>
+  <testcase name="testIsShowingLevel" classname="com.csusm.villa291.GameTest" time="0"/>
+  <testcase name="testKillPlayer" classname="com.csusm.villa291.GameTest" time="0"/>
 </testsuite>
